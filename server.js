@@ -5,6 +5,7 @@ import morgan from "morgan";
 import { connectWithDB } from "./config/database.js";
 import cloudinary from "cloudinary";
 import user from "./route/user.js";
+import book from "./route/book.js";
 import cookieParser from "cookie-parser";
 import fileUpload from "express-fileupload";
 
@@ -39,7 +40,7 @@ cloudinary.config({
 
 //router middleware
 app.use("/api/v1", user);
-
+app.use("/api/v1", book);
 app.get("/", (req, res) => {
   res.status(200).send("Working");
 });
