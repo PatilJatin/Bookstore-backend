@@ -1,4 +1,23 @@
-The server will run on `http://localhost:[PORT]`, where `[PORT]` is the specified port in the `.env` file.
+# Book Haven
+
+The project name is [Project Name]. It is a [brief description of your project].
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Endpoints](#api-endpoints)
+
+## Installation
+
+1. Clone the repository.
+2. Install the dependencies using the following command:
+
+## Usage
+
+1. Set up the environment variables by creating a `.env` file. Refer to `.env.example` for the required variables.
+2. Start the server using the following command:
+3.The server will run on `http://localhost:[PORT]`, where `[PORT]` is the specified port in the `.env` file.
 
 ## API Endpoints
 
