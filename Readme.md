@@ -19,7 +19,7 @@ The project name is [Project Name]. It is a [brief description of your project].
 1. Set up the environment variables by creating a `.env` file. Refer to `.env.example` for the required variables.
 2. Start the server using the following command:
 - npm start
-4.The server will run on `http://localhost:[PORT]`, where `[PORT]` is the specified port in the `.env` file.
+#### The server will run on `http://localhost:[PORT]`, where `[PORT]` is the specified port in the `.env` file.
 
 ## API Endpoints
 
