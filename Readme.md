@@ -83,12 +83,16 @@ The server will run on `http://localhost:[PORT]`, where `[PORT]` is the specifie
 
 #### Delete Book
 
-- **Endpoint:** ` /api/v1/deleteBook/:id`
-  Method: DELETE
-  Description: Delete a specific book.
-  Request Parameters:
-  id (string): ID of the book
-  Request Headers:
-  Authorization (string): Access token
-  Response:
-  message (string): Success message or error message
+- **Endpoint:** `/api/v1/deleteBook/:id`
+- **Method:** `DELETE`
+- **Description:** Delete a specific book.
+- **Request Body:**
+- `title` (string): Title of the book
+- `author` (string): Author of the book
+- `description` (string): Description of the book
+- **Request Parameters:**
+- `id` (string): ID of the book
+- **Request Headers:**
+- `Authorization` (string): Access token
+- **Response:**
+- `message` (string): Success message or error message
