@@ -11,7 +11,8 @@ The project name is [Project Name]. It is a [brief description of your project].
 ## Installation
 
 1. Clone the repository.
-2. Install the dependencies using the following command:
+- git clone https://github.com/PatilJatin/Bookstore-backend.git
+3. Install the dependencies using the following command:
 - npm install
 
 ## Usage
