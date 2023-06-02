@@ -8,9 +8,17 @@ import user from "./route/user.js";
 import book from "./route/book.js";
 import cookieParser from "cookie-parser";
 import fileUpload from "express-fileupload";
+import cors from "cors";
 
 const app = express();
 const { PORT } = process.env;
+
+app.use(
+  cors({
+    origin: "https://book-haven-jatin.netlify.app",
+    credentials: true,
+  })
+);
 
 //connnect with DB
 connectWithDB();

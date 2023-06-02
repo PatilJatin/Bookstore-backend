@@ -12,4 +12,5 @@ router.route("/getAllBooks").get(getAllBooks);
 router.route("/getOneBook/:id").get(getOneBook);
 router.route("/addBook").post(isLoggedIn, addBook);
 router.route("/deleteBook/:id").delete(isLoggedIn, deleteOneBook);
+
 export default router;

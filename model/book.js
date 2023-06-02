@@ -15,7 +15,7 @@ const bookSchema = new mongoose.Schema({
   description: {
     type: String,
     required: [true, "please provide description for Book"],
-    maxLength: [400, "Book description should not be more than 400 characters"],
+    maxLength: [1000, "Book description should not be more than 1000 characters"],
   },
   images: [
     {
