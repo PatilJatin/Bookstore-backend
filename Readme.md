@@ -11,14 +11,16 @@ The project name is [Project Name]. It is a [brief description of your project].
 ## Installation
 
 1. Clone the repository.
-2. Install the dependencies using the following command:
+- git clone https://github.com/PatilJatin/Bookstore-backend.git
+3. Install the dependencies using the following command:
+- npm install
 
 ## Usage
 
 1. Set up the environment variables by creating a `.env` file. Refer to `.env.example` for the required variables.
 2. Start the server using the following command:
-3.The server will run on `http://localhost:[PORT]`, where `[PORT]` is the specified port in the `.env` file.
-
+- npm start
+#### The server will run on `https://bookstore-mz0o.onrender.com`.
 ## API Endpoints
 
 ### User Routes
