@@ -63,6 +63,7 @@ export const login = AsynchHandler(async (req, res, next) => {
 });
 
 export const logout = AsynchHandler(async (req, res, next) => {
+  res.removeHeader("Authorization");
   res.cookie("token", null, {
     expires: new Date(Date.now()),
     httpOnly: true,
